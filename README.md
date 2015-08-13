@@ -52,7 +52,7 @@
 | 1011 | DIV | AX /  BX -> CX | Divide Two Registers      |
 | 1100 | RRB | AX <- :DX      | RAM Read Byte             |
 | 1101 | RSB | AX -> :DX      | RAM Save Byte             |
-| 1110 | JMP | :DX            | Non-cond Branch           |
+| 1110 | JMP | :DX            | Non-conditional Branch    |
 | 1111 | JZT | :DX            | Branch if ZF is 0         |
 
 ## INSTRUCTION FORMAT
