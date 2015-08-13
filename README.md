@@ -1,5 +1,9 @@
 # GBIT-16 (GameBit 16)
 
+## NOTE:
+
+Keep in mind that this is in development and doesn't really work fully at this moment. There is stilla good amount of work to be done.
+
 ## REGISTERS
 
 | Binary | Name | Description                            |
