@@ -68,19 +68,19 @@ Keep in mind that this is in development and doesn't really work fully at this m
 
 ## INSTRUCTION FORMAT
 
-### IR1
+### I1R (Instruction 1 Register)
 
 | inst | AX   | value    |
 |:----:|:----:|:--------:|
 | 4bit | 4bit | 8bit     |
 
-### IR2
+### I2R (Instruction 2 Register)
 
 | inst | AX   | N/A  | BX   |
 |:----:|:----:|:----:|:----:|
 | 4bit | 4bit | 0000 | 4bit |
 
-### IR3
+### I3R (Instruction 3 Register)
 
 | inst | AX   | BX   | CX   |
 |:----:|:----:|:----:|:----:|
