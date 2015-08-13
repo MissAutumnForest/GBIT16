@@ -39,7 +39,7 @@
 | Inst | nam | Process        | Description               |
 |:----:|:---:|:--------------:|:-------------------------:|
 | 0000 | BAN | AX &  BX -> CX | Bitwise AND          (&)  |
-| 0001 | BOR | AX |  BX -> CX | Bitwise OR           (|)  |
+| 0001 | BOR | AX \| BX -> CX | Bitwise OR           (\|) |
 | 0010 | BNO | AX !  BX -> CX | Bitwise NOT          (!)  |
 | 0011 | BXO | AX ^  BX -> CX | Bitwise Exclusive OR (^)  |
 | 0100 | BLS | AX << AX -> AX | Bitwise Left Shift   (<<) |
