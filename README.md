@@ -1,4 +1,4 @@
-# GBIT-16
+# GBIT-16 (GameBit 16)
 
 ## REGISTERS
 
