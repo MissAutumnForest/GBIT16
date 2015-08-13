@@ -74,13 +74,13 @@ Keep in mind that this is in development and doesn't really work fully at this m
 |:----:|:----:|:--------:|
 | 4bit | 4bit | 8bit     |
 
-### I2R (Instruction 2 Register)
+### I2R (Instruction 2 Registers)
 
 | inst | AX   | N/A  | BX   |
 |:----:|:----:|:----:|:----:|
 | 4bit | 4bit | 0000 | 4bit |
 
-### I3R (Instruction 3 Register)
+### I3R (Instruction 3 Registers)
 
 | inst | AX   | BX   | CX   |
 |:----:|:----:|:----:|:----:|
