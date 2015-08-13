@@ -2,7 +2,14 @@
 
 ## NOTE:
 
-Keep in mind that this is in development and doesn't really work fully at this moment. There is stilla good amount of work to be done.
+Keep in mind that this is in development and doesn't really work fully at this moment. There is still a good amount of work to be done.
+
+### TODOS:
+1. Write instruction handler.
+2. Write binary multiplication operation.
+3. Write binary Division operation.
+4. Write a screen interface that supports both character mode and graphic mode.
+5. Write an Assembler so that we can code in assembly instead of binary.
 
 ## REGISTERS
 
