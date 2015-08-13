@@ -2,38 +2,37 @@
 
 ## REGISTERS
 
-0000 AX: General Register A
-0001 AL: Low Byte of A
-0010 AH: High Byte of A
-
-0011 BX: General Register B
-0100 BL: Low Byte of B
-0101 BH: High Byte of B
-
-0110 CX: General Register C
-0111 CL: Low Byte of C
-1000 CH: High Byte of C
-
-1001 DX: General Register D
-1010 DL: Low Byte of D
-1011 DH: High Byte of D
-
-1100 PC: Program Counter
-1101 IP: Instruction Pointer (next instruction)
-1110 SP: Stack Pointer
-1111 FG: Flags (look below)
+| Binary | Name | Description                            |
+|:------:|:----:|:--------------------------------------:|
+| 0000   | AX   | General Register A                     |
+| 0001   | AL   | Low Byte of A                          |
+| 0010   | AH   | High Byte of A                         |
+| 0011   | BX   | General Register B                     |
+| 0100   | BL   | Low Byte of B                          |
+| 0101   | BH   | High Byte of B                         |
+| 0110   | CX   | General Register C                     |
+| 0111   | CL   | Low Byte of C                          |
+| 1000   | CH   | High Byte of C                         |
+| 1001   | DX   | General Register D                     |
+| 1010   | DL   | Low Byte of D                          |
+| 1011   | DH   | High Byte of D                         |
+| 1100   | PC   | Program Counter                        |
+| 1101   | IP   | Instruction Pointer (next instruction) |
+| 1110   | SP   | Stack Pointer                          |
+| 1111   | FG   | Flags (look below)                     |
 
 ## FLAGS
 
-Flags (Stored in FG Register):
-CF: Carry Flag
-PF: Parity Flag
-NF: Negative Flag
-ZF: Zero Flag
-00: N/A
-00: N/A
-00: N/A
-00: N/A
+| Flag | Description   |
+|:----:|:-------------:|
+| CF   | Carry Flag    |
+| PF   | Parity Flag   |
+| NF   | Negative Flag |
+| ZF   | Zero Flag     |
+| 00   | N/A           |
+| 00   | N/A           |
+| 00   | N/A           |
+| 00   | N/A           |
 
 ## INSTRUCTION SET
 
