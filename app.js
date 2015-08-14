@@ -13,6 +13,6 @@ var gbit16 = gb([
 gbit16.init();
 
 // Cycle once every second.
-var cpu = setInterval(gbit16.tick, 1000);
+var cpu = setInterval(gbit16.tick, 500);
 
 console.log("GBIT-16 Emulator Started!");

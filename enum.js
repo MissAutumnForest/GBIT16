@@ -1,25 +1,72 @@
 module.exports = {
   inst: {
-    'NOP': '0000',
+    'BAN': {
+      'bin': '0000',
+      'type': 'i3r'
+    },
+    'BOR': {
+      'bin': '0001',
+      'type': 'i3r'
+    },
+    'BNO': {
+      'bin': '0010',
+      'type': 'i2r'
+    },
+    'BXO': {
+      'bin': '0011',
+      'type': 'i3r'
+    },
+    'BLS': {
+      'bin': '0100',
+      'type': 'i2r'
+    },
+    'BRS': {
+      'bin': '0101',
+      'type': 'i2r'
+    },
 
-    'BAN': '0001',
-    'BOR': '0010',
-    'BNO': '0011',
-    'BXO': '0100',
-    'BLS': '0101',
-    'BRS': '0110',
+    'MOV1': {
+      'bin': '0110',
+      'type': 'i2r'
+    },
+    'MOV2': {
+      'bin': '0111',
+      'type': 'i1r'
+    },
+    'ADD': {
+      'bin': '1000',
+      'type': 'i3r'
+    },
+    'SUB': {
+      'bin': '1001',
+      'type': 'i3r'
+    },
+    'MUL': {
+      'bin': '1010',
+      'type': 'i3r'
+    },
+    'DIV': {
+      'bin': '1011',
+      'type': 'i3r'
+    },
 
-    'MOV': '0111',
-    'ADD': '1000',
-    'SUB': '1001',
-    'MUL': '1010',
-    'DIV': '1011',
+    'RRB': {
+      'bin': '1100',
+      'type': 'i2r'
+    },
+    'RSB': {
+      'bin': '1101',
+      'type': 'i2r'
+    },
 
-    'RRB': '1100',
-    'RSB': '1101',
-
-    'JMP': '1110',
-    'JZT': '1111'
+    'JMP': {
+      'bin': '1110',
+      'type': 'ir1' // really it only uses inst and reg.
+    },
+    'JZT': {
+      'bin': '1111',
+      'type': 'ir1' // Same here
+    }
   },
 
   reg: {
